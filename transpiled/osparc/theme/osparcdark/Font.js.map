@@ -1,0 +1,30 @@
+{
+  "version": 3,
+  "sources": [
+    "source/class/osparc/theme/osparcdark/Font.js"
+  ],
+  "names": [
+    "qx",
+    "Bootstrap",
+    "executePendingDefers",
+    "$$dbClassInfo",
+    "Theme",
+    "define",
+    "fonts",
+    "size",
+    "family",
+    "color",
+    "sources",
+    "source",
+    "bold",
+    "osparc",
+    "theme",
+    "osparcdark",
+    "Font"
+  ],
+  "mappings": ";;;;;;;;;AAAAA,KAAGC,SAAH,CAAaC,oBAAb,CAAkCC,aAAlC,EA2BAH,GAAGI,KAAH,CAASC,MAAT,CAAgB,8BAAhB,EAAgD;AAC9CC,WAAO;AACL,iBAAW;AACTC,cAAM,EADG;AAETC,gBAAQ,CAAC,YAAD,CAFC;AAGTC,eAAO,MAHE;AAITC,iBAAS,CACP;AACEF,kBAAQ,QADV;AAEEG,kBAAQ,CACN,6DADM,EAEN,+DAFM,EAGN,8DAHM,EAIN,6DAJM;AAFV,SADO;AAJA,OADN;;AAkBL,cACE;AACEJ,cAAM,EADR;AAEEC,gBAAQ,CAAC,YAAD,CAFV;AAGEI,cAAM,IAHR;AAIEH,eAAO,MAJT;AAKEC,iBAAS,CACP;AACEF,kBAAQ,QADV;AAEEG,kBAAQ,CACN,yDADM,EAEN,2DAFM,EAGN,0DAHM,EAIN,yDAJM;AAFV,SADO;AALX,OAnBG;;AAqCL,kBACE;AACEJ,cAAM,EADR;AAEEC,gBAAQ,CAAC,YAAD,CAFV;AAGEC,eAAO,MAHT;AAIEC,iBAAS,CACP;AACEF,kBAAQ,QADV;AAEEG,kBAAQ,CACN,6DADM,EAEN,+DAFM,EAGN,8DAHM,EAIN,6DAJM;AAFV,SADO;AAJX,OAtCG;;AAuDL,eACE;AACEJ,cAAM,EADR;AAEEC,gBAAQ,CAAC,YAAD,CAFV;AAGEC,eAAO,MAHT;AAIEC,iBAAS,CACP;AACEF,kBAAQ,QADV;AAEEG,kBAAQ,CACN,6DADM,EAEN,+DAFM,EAGN,8DAHM,EAIN,6DAJM;AAFV,SADO;AAJX,OAxDG;;AAyEL,mBACE;AACEJ,cAAM,EADR;AAEEC,gBAAQ,CAAC,WAAD,CAFV;AAGEC,eAAO,MAHT;AAIEC,iBAAS,CACP;AACEF,kBAAQ,aADV;AAEEG,kBAAQ,CACN,iEADM,EAEN,mEAFM,EAGN,kEAHM,EAIN,iEAJM;AAFV,SADO;AAJX;AA1EG;AADuC,GAAhD,C;AA3BAE,SAAOC,KAAP,CAAaC,UAAb,CAAwBC,IAAxB,CAA6Bb,aAA7B,GAA6CA,aAA7C",
+  "file": "Font.js",
+  "sourcesContent": [
+    "/* ************************************************************************\n\n  OSparc Dark Theme for Qooxdoo\n\n  Copyright:\n     2018 IT'IS Foundation\n\n  License:\n     MIT: https://opensource.org/licenses/MIT\n     See the LICENSE file in the project's top-level directory for details.\n\n  Authors:\n    * Tobias Oetiker (oetiker)\n\n  Origin:\n    This theme is based in large parts on the the Simple\n    theme included with Qooxdoo.\n************************************************************************ */\n/**\n * @asset(osparc/font/*.woff)\n * @asset(osparc/font/*.woff2)\n * @asset(osparc/font/*.eot)\n * @asset(osparc/font/*.ttf)\n */\n/**\n * The simple qooxdoo font theme.\n */\nqx.Theme.define(\"osparc.theme.osparcdark.Font\", {\n  fonts: {\n    \"default\": {\n      size: 13,\n      family: [\"sans-serif\"],\n      color: \"text\",\n      sources: [\n        {\n          family: \"Roboto\",\n          source: [\n            \"resource/osparc/font/roboto-v18-latin_latin-ext-regular.eot\",\n            \"resource/osparc/font/roboto-v18-latin_latin-ext-regular.woff2\",\n            \"resource/osparc/font/roboto-v18-latin_latin-ext-regular.woff\",\n            \"resource/osparc/font/roboto-v18-latin_latin-ext-regular.ttf\"\n          ]\n        }\n      ]\n    },\n\n    \"bold\":\n      {\n        size: 13,\n        family: [\"sans-serif\"],\n        bold: true,\n        color: \"text\",\n        sources: [\n          {\n            family: \"Roboto\",\n            source: [\n              \"resource/osparc/font/roboto-v18-latin_latin-ext-700.eot\",\n              \"resource/osparc/font/roboto-v18-latin_latin-ext-700.woff2\",\n              \"resource/osparc/font/roboto-v18-latin_latin-ext-700.woff\",\n              \"resource/osparc/font/roboto-v18-latin_latin-ext-700.ttf\"\n            ]\n          }\n        ]\n      },\n\n    \"headline\":\n      {\n        size: 24,\n        family: [\"sans-serif\"],\n        color: \"text\",\n        sources: [\n          {\n            family: \"Roboto\",\n            source: [\n              \"resource/osparc/font/roboto-v18-latin_latin-ext-regular.eot\",\n              \"resource/osparc/font/roboto-v18-latin_latin-ext-regular.woff2\",\n              \"resource/osparc/font/roboto-v18-latin_latin-ext-regular.woff\",\n              \"resource/osparc/font/roboto-v18-latin_latin-ext-regular.ttf\"\n            ]\n          }\n        ]\n      },\n\n    \"small\":\n      {\n        size: 12,\n        family: [\"sans-serif\"],\n        color: \"text\",\n        sources: [\n          {\n            family: \"Roboto\",\n            source: [\n              \"resource/osparc/font/roboto-v18-latin_latin-ext-regular.eot\",\n              \"resource/osparc/font/roboto-v18-latin_latin-ext-regular.woff2\",\n              \"resource/osparc/font/roboto-v18-latin_latin-ext-regular.woff\",\n              \"resource/osparc/font/roboto-v18-latin_latin-ext-regular.ttf\"\n            ]\n          }\n        ]\n      },\n\n    \"monospace\":\n      {\n        size: 13,\n        family: [\"monospace\"],\n        color: \"text\",\n        sources: [\n          {\n            family: \"Roboto Mono\",\n            source: [\n              \"resource/osparc/font/roboto-mono-v6-latin_latin-ext-regular.eot\",\n              \"resource/osparc/font/roboto-mono-v6-latin_latin-ext-regular.woff2\",\n              \"resource/osparc/font/roboto-mono-v6-latin_latin-ext-regular.woff\",\n              \"resource/osparc/font/roboto-mono-v6-latin_latin-ext-regular.ttf\"\n            ]\n          }\n        ]\n      }\n  }\n});\n"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "compiler": "0.3.0-alpha.20190306-1202",
+  "libraries": {
+    "qxc.ui.versionlabel": "trunk",
+    "qxc.application.formdemo": "trunk",
+    "osparc.theme": "0.4.4",
+    "iconfont.material": "0.1.4",
+    "qx": "6.0.0-alpha-20190220-ab136bd"
+  }
+}
