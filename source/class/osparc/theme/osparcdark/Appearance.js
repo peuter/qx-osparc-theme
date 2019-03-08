@@ -1411,7 +1411,7 @@ qx.Theme.define("osparc.theme.osparcdark.Appearance", {
         include: "button-frame",
 
         style: function(states) {
-          let decorator = "material-textfield";
+          var decorator = "material-textfield";
           if (states.focused) {
             decorator += "-focused";
             if (states.invalid) {
@@ -2345,11 +2345,11 @@ qx.Theme.define("osparc.theme.osparcdark.Appearance", {
     "tabview/pane":
       {
         style: function(states) {
-          let marginTop =0;
-          let marginBottom = 0;
-          let marginLeft = 0;
-          let marginRight = 0;
-          let decorator;
+          var marginTop =0;
+          var marginBottom = 0;
+          var marginLeft = 0;
+          var marginRight = 0;
+          var decorator;
 
           if (states.barTop) {
             marginTop = -1;
